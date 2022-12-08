@@ -1,0 +1,78 @@
+@import "_nullstyle";
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+   font-family: "Fira Sans", sans-serif;
+   background: #e9f0f7;
+}
+.sidebar {
+   .first {
+      background: #edf2f9;
+   }
+   ul {
+      margin: 0px 0px 20px 0px;
+   }
+   li {
+      margin: 0px 0px 0px 0px;
+      padding: 8px 24px;
+   }
+   .nav02 {
+      margin: 0px 0px 112px 0px;
+      a {
+         font-weight: 400;
+         font-size: 15px;
+         line-height: 20px;
+         color: #5c6678;
+      }
+   }
+   .nav01 {
+      margin: 80px 0px 0px 0px;
+      a {
+         font-weight: 400;
+         font-size: 15px;
+         line-height: 20px;
+         color: #000000;
+      }
+   }
+   .logo {
+      background: #fafcff;
+      position: fixed;
+      width: 270px;
+      padding: 13px 20px;
+      span {
+         margin: 10px 0px 0px 0px;
+         display: block;
+         font-weight: 400;
+         font-size: 15px;
+         line-height: 20px;
+         color: #b6bcc6;
+      }
+   }
+   .enter {
+      background: #fafcff;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 270px;
+
+      a {
+         padding: 16px 20px;
+         display: block;
+         border-bottom: 1px solid #edf2f9;
+         margin: 0px 0px 56px 0px;
+         font-weight: 400;
+         font-size: 15px;
+         line-height: 20px;
+         color: #000000;
+      }
+   }
+
+   width: 270px;
+   display: block;
+   position: fixed;
+   overflow: auto;
+   left: 0;
+   top: 0;
+   height: 100%;
+   background: #fafcff;
+   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.08);
+}
