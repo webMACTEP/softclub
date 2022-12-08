@@ -101,8 +101,20 @@ body {
 }
 
 .sidebar li {
+  position: relative;
   margin: 0px 0px 0px 0px;
   padding: 8px 24px;
+}
+
+.sidebar li.active::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: #00a25f;
+  right: 40px;
+  top: 14px;
 }
 
 .sidebar .nav02 {
@@ -110,6 +122,8 @@ body {
 }
 
 .sidebar .nav02 a {
+  display: block;
+  max-width: 200px;
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
@@ -121,6 +135,8 @@ body {
 }
 
 .sidebar .nav01 a {
+  display: block;
+  max-width: 200px;
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
@@ -128,6 +144,7 @@ body {
 }
 
 .sidebar .logo {
+  z-index: 1;
   background: #fafcff;
   position: fixed;
   width: 270px;
