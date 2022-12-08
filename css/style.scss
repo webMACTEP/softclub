@@ -88,6 +88,11 @@ body {
    display: block;
    position: fixed;
    overflow: auto;
+   scrollbar-width: none;
+   &::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+   }
    left: 0;
    top: 0;
    height: 100%;
