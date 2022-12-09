@@ -229,6 +229,7 @@ body {
 }
 
 .markets {
+  z-index: 2;
   color: #b6bcc6;
   background: #fafcff;
   display: block;
