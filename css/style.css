@@ -565,6 +565,109 @@ body {
   gap: 64px;
 }
 
+.content .slider {
+  border-radius: 24px;
+  background: #fafcff;
+  padding: 24px 0px;
+}
+
+.content .slider .discrip {
+  padding: 0px 40px 24px;
+}
+
+.content .slider .discrip span {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ee6464;
+}
+
+.content .slider .discrip h4 {
+  margin: 0px 0px 10px 0px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.content .slider .itm {
+  text-align: center;
+}
+
+.content .slider .itm span {
+  margin: 16px 0px 0px 0px;
+  display: block;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.content .slider .foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 24px 0px 20px 0px;
+}
+
+.content .slider .foot .butt {
+  color: #ffffff;
+  padding: 16px 40px;
+  background: #489f65;
+  border-radius: 99px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.content .slider .foot .butt:hover {
+  background: #00824c;
+  -webkit-box-shadow: 0px 4px 40px rgba(2, 255, 26, 0.33), 0px -4px 24px rgba(249, 226, 78, 0.33);
+          box-shadow: 0px 4px 40px rgba(2, 255, 26, 0.33), 0px -4px 24px rgba(249, 226, 78, 0.33);
+}
+
+.content .slider .item {
+  position: relative;
+}
+
+.content .slider .item .next {
+  cursor: pointer;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  right: -20px;
+  top: 50%;
+  margin-top: -20px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.content .slider .item .prew {
+  cursor: pointer;
+  left: -20px;
+  top: 50%;
+  margin-top: -20px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.content .slider .head {
+  padding: 8px 40px 16px;
+}
+
+.content .slider .head span {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #5c6678;
+}
+
+.content .slider .head h2 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+}
+
 .content .img {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -592,6 +695,14 @@ body {
   line-height: 20px;
   text-align: center;
   color: #ffffff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.content .congratulations .butt:hover {
+  background: #00824c;
+  -webkit-box-shadow: 0px 4px 40px rgba(2, 255, 26, 0.33), 0px -4px 24px rgba(249, 226, 78, 0.33);
+          box-shadow: 0px 4px 40px rgba(2, 255, 26, 0.33), 0px -4px 24px rgba(249, 226, 78, 0.33);
 }
 
 .content .congratulations .subtitle {

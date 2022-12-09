@@ -373,6 +373,90 @@ body {
    }
 }
 .content {
+   .slider {
+      .discrip {
+         span {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            color: #ee6464;
+         }
+         h4 {
+            margin: 0px 0px 10px 0px;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 20px;
+         }
+         padding: 0px 40px 24px;
+      }
+      .itm {
+         text-align: center;
+
+         span {
+            margin: 16px 0px 0px 0px;
+            display: block;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 20px;
+         }
+      }
+      .foot {
+         display: flex;
+         justify-content: space-around;
+         padding: 24px 0px 20px 0px;
+
+         .butt {
+            color: #ffffff;
+            padding: 16px 40px;
+            background: #489f65;
+            border-radius: 99px;
+            transition: 0.3s;
+            &:hover {
+               background: #00824c;
+               box-shadow: 0px 4px 40px rgba(2, 255, 26, 0.33), 0px -4px 24px rgba(249, 226, 78, 0.33);
+            }
+         }
+      }
+      .item {
+         position: relative;
+         .next {
+            cursor: pointer;
+            transform: rotate(180deg);
+            right: -20px;
+            top: 50%;
+            margin-top: -20px;
+            position: absolute;
+            width: 40px;
+            height: 40px;
+         }
+         .prew {
+            cursor: pointer;
+            left: -20px;
+            top: 50%;
+            margin-top: -20px;
+            position: absolute;
+            width: 40px;
+            height: 40px;
+         }
+      }
+      .head {
+         padding: 8px 40px 16px;
+         span {
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 16px;
+            color: #5c6678;
+         }
+         h2 {
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 40px;
+         }
+      }
+      border-radius: 24px;
+      background: #fafcff;
+      padding: 24px 0px;
+   }
    .img {
       display: flex;
       align-items: center;
@@ -390,6 +474,11 @@ body {
          line-height: 20px;
          text-align: center;
          color: #ffffff;
+         transition: 0.3s;
+         &:hover {
+            background: #00824c;
+            box-shadow: 0px 4px 40px rgba(2, 255, 26, 0.33), 0px -4px 24px rgba(249, 226, 78, 0.33);
+         }
       }
       padding: 24px;
       background: #fafcff;
