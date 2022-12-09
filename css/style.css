@@ -565,6 +565,113 @@ body {
   gap: 64px;
 }
 
+.content .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .congratulations {
+  padding: 24px;
+  background: #fafcff;
+  border-radius: 24px;
+}
+
+.content .congratulations .subtitle {
+  margin: 0px 0px 16px 0px;
+}
+
+.content .congratulations span {
+  display: block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height, or 123% */
+  /* Text/main/Secondary */
+  color: #5c6678;
+}
+
+.content .congratulations .block {
+  margin: 0px 0px 50px 0px;
+}
+
+.content .congratulations .first .item .name {
+  margin: 0px 0px 0px 16px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.content .congratulations .item {
+  padding: 6px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content .congratulations .item .img {
+  height: 50px;
+}
+
+.content .congratulations .item .img .ava {
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content .congratulations .item img {
+  border: 1px solid #e05eac;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.content .congratulations .item img:hover {
+  width: 50px;
+  height: 50px;
+  -webkit-box-shadow: 0px 0px 20px 5px #e05eac;
+          box-shadow: 0px 0px 20px 5px #e05eac;
+  border: none;
+}
+
+.content .congratulations .item span {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: right;
+  color: #000000;
+}
+
+.content .congratulations .item .name {
+  margin: 0px 0px 0px 16px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.content .congratulations h2 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  margin: 0px 0px 2px 0px;
+}
+
 .content .quote {
   padding: 40px 40px 16px;
   background: radial-gradient(100% 1587.72% at 0% 100%, #52ff00 0%, #ebff00 100%);
