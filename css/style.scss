@@ -4,6 +4,15 @@ body {
    font-family: "Fira Sans", sans-serif;
    background: #e9f0f7;
 }
+@keyframes marquee {
+   0% {
+      transform: translate(0, 0);
+   }
+   100% {
+      transform: translate(-100%, 0);
+   }
+}
+
 .sidebar {
    ul {
       a {
@@ -79,7 +88,6 @@ body {
          align-items: center;
          justify-content: space-between;
          padding: 0px 24px;
-         //background: url("../img/arrow01.svg");
       }
 
       a {
@@ -118,4 +126,63 @@ body {
    height: 100%;
    background: #fafcff;
    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.08);
+}
+.markets {
+   .title {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 20px;
+   }
+   .meaning {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+      margin: 0px 0px 0px 30px;
+      &.top {
+         position: relative;
+         &::before {
+            content: "↑";
+            position: absolute;
+            left: -16px;
+            top: 0;
+         }
+      }
+      &.bott {
+         position: relative;
+         &::before {
+            content: "↓";
+            position: absolute;
+            left: -16px;
+            top: 0;
+         }
+      }
+   }
+   .value {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+      margin: 0px 0px 0px 12px;
+   }
+   .item {
+      padding: 8px 24px;
+      display: flex;
+      align-items: center;
+   }
+   ul {
+      display: flex;
+      gap: 12px;
+      box-sizing: border-box;
+      animation: marquee 25s linear infinite;
+      &:hover {
+         animation-play-state: paused;
+      }
+   }
+   color: #b6bcc6;
+   background: #fafcff;
+   display: block;
+   position: fixed;
+   overflow: hidden;
+   box-sizing: border-box;
+   left: 270px;
+   top: 0;
 }

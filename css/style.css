@@ -79,6 +79,28 @@ body {
   background: #e9f0f7;
 }
 
+@-webkit-keyframes marquee {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(-100%, 0);
+            transform: translate(-100%, 0);
+  }
+}
+
+@keyframes marquee {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(-100%, 0);
+            transform: translate(-100%, 0);
+  }
+}
+
 .sidebar {
   width: 270px;
   display: block;
@@ -204,4 +226,84 @@ body {
 .sidebar::-webkit-scrollbar {
   width: 0;
   height: 0;
+}
+
+.markets {
+  color: #b6bcc6;
+  background: #fafcff;
+  display: block;
+  position: fixed;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  left: 270px;
+  top: 0;
+}
+
+.markets .title {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.markets .meaning {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0px 0px 0px 30px;
+}
+
+.markets .meaning.top {
+  position: relative;
+}
+
+.markets .meaning.top::before {
+  content: "↑";
+  position: absolute;
+  left: -16px;
+  top: 0;
+}
+
+.markets .meaning.bott {
+  position: relative;
+}
+
+.markets .meaning.bott::before {
+  content: "↓";
+  position: absolute;
+  left: -16px;
+  top: 0;
+}
+
+.markets .value {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0px 0px 0px 12px;
+}
+
+.markets .item {
+  padding: 8px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.markets ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-animation: marquee 25s linear infinite;
+          animation: marquee 25s linear infinite;
+}
+
+.markets ul:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
