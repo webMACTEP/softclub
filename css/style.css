@@ -575,6 +575,12 @@ body {
   padding: 0px 40px 24px;
 }
 
+.content .slider .discrip p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+
 .content .slider .discrip span {
   font-weight: 400;
   font-size: 15px;
