@@ -580,6 +580,20 @@ body {
   border-radius: 24px;
 }
 
+.content .congratulations .butt {
+  max-width: 218px;
+  display: block;
+  margin: 0px auto 20px auto;
+  background: #489f65;
+  padding: 16px 40px;
+  border-radius: 99px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
 .content .congratulations .subtitle {
   margin: 0px 0px 16px 0px;
 }
@@ -686,6 +700,16 @@ body {
   line-height: 16px;
   text-align: right;
   color: #489f65;
+}
+
+.content .quote h3 {
+  margin: 0px 0px 20px 0px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 0px rgba(23, 129, 40, 0.51);
 }
 
 .content .quote h2 {
