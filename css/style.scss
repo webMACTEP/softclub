@@ -372,3 +372,39 @@ body {
       justify-content: space-between;
    }
 }
+.content {
+   .date {
+      h2 {
+         font-weight: 400;
+         font-size: 36px;
+         line-height: 48px;
+         color: #000000;
+      }
+      span {
+         font-weight: 400;
+         font-size: 15px;
+         line-height: 20px;
+         /* identical to box height, or 133% */
+
+         /* Text/main/Tertiary */
+
+         color: #b6bcc6;
+      }
+   }
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   gap: 64px;
+
+   .date {
+      padding: 8px 40px 24px;
+
+      background: #fafcff;
+      border-radius: 0px 0px 24px 24px;
+   }
+   section {
+      width: 518px;
+      //margin: 0px 0px 64px 0px;
+   }
+}

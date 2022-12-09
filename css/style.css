@@ -549,3 +549,44 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  gap: 64px;
+}
+
+.content .date h2 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.content .date span {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height, or 133% */
+  /* Text/main/Tertiary */
+  color: #b6bcc6;
+}
+
+.content .date {
+  padding: 8px 40px 24px;
+  background: #fafcff;
+  border-radius: 0px 0px 24px 24px;
+}
+
+.content section {
+  width: 518px;
+}
