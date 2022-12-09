@@ -628,3 +628,18 @@ body {
       //margin: 0px 0px 64px 0px;
    }
 }
+@media (max-width: 730px) {
+   .main .banners {
+      display: none;
+   }
+}
+@media (max-width: 1270px) {
+   .main .wrapper {
+      padding: 0px 0px 0px 0px;
+   }
+   .sidebar,
+   .markets,
+   .news {
+      display: none;
+   }
+}
